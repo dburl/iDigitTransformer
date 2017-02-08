@@ -6,8 +6,9 @@
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
             </button>
-            <a class='navbar-brand' [routerLink]="['/home']">iDigitTransformer</a>
+            <a class='navbar-brand' [routerLink]="['/home']">iDigitalTransformer</a>
         </div>
         <div class='clearfix'></div>
         <div class='navbar-collapse collapse'>
@@ -25,6 +26,11 @@
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/fetch-data']">
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/helloworld']">
+                        <span class='glyphicon glyphicon-sound-5-1'></span> New page
                     </a>
                 </li>
             </ul>
